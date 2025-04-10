@@ -13,7 +13,6 @@ const Videos = {
   // Function to get the trailer for a specific film by its ID
   getTrailerByFilmId: function (filmId) {
     const videos = this.all(); // Get all videos
-    console.log(filmId); // Log the filmId for debugging
     const movie = videos.find((v) => v.id === filmId); // Find the movie by its ID
 
     if (!movie) {
