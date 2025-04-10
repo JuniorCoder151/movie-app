@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-container {
+  border-radius: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: #3b3939 transparent; /* Gray scrollbar thumb and transparent track */
+}
